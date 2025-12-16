@@ -1,4 +1,4 @@
-function dMdt = ode_model1(t,M,k)
+function dMdt = model_1(t,M,k)
 % ODEs of stepwise oligomerization 1-2-3-4-5-6
 % Inputs: 
 %  t - time
