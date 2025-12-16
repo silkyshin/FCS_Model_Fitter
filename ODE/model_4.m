@@ -1,4 +1,4 @@
-function dMdt = odes_1to6(t, M, k)
+function dMdt = model_4(t, M, k)
 % ODE system for trimer based nucleation mode: 1 <-> 3 <-> 6
 %
 % Inputs:
