@@ -1,4 +1,4 @@
-function dMdt = ode_model2(t,M,k)
+function dMdt = model_2(t,M,k)
 % ODEs of dimer-higher order oligomer model 1-2-4-8
 % Inputs: 
 %  t - time
