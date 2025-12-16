@@ -36,6 +36,17 @@ tspan = [0 3600];
 % Solve ODEs
 [t, M_t] = ode45(@(t,M) odemodel(t,M,k), tspan, M0);
 
+% Combine t and M_t to save
+data_for_saving = [t, M_t];
+
+% Write to csv
+writematrix(data_for_saving, 'ODE_solution.csv');
+
+% Add headers (optional)
+% headers = {'Time_sec', 'M1', 'M2', 'M3', 'M4', 'M5', 'M6');
+% T = array2table(data_for_saving, 'VariableNames', headers);
+% writetable(T, 'ODE_solution_with_headers.csv');
+
 % Plot results
 % Alter the number of series accordingly
 figure; hold on;
