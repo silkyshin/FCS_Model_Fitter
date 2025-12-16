@@ -1,3 +1,8 @@
+% Load the csv
+data = readmatrix('ODE_solution.csv');
+t = data(:,1);
+M_t = data(:,2:end);
+
 % Fraction of fluorescent protein
 f = 100e-9/50e-6; %eg 100nM labeled in 50uM. You could just normalize and make this go away
 
