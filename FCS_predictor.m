@@ -1,7 +1,13 @@
-% Load the csv
-data = readmatrix('ODE_solution.csv');
-t = data(:,1);
-M_t = data(:,2:end);
+% Load the csv of the ode solution
+odedata = readmatrix('ODE_solution.csv');
+t = odedata(:,1);
+M_t = odedata(:,2:end);
+
+% Load the csv of the FCS timecourse
+fcsdata = readmatrix('FCS_timecourse.csv');
+t_exp = fcsdata(:,1);
+G0_exp = fcsdata(:,2);
+tauD_exp = fcsdata(:,3);
 
 % Fraction of fluorescent protein
 f = 100e-9/50e-6; %eg 100nM labeled in 50uM. You could just normalize and make this go away
