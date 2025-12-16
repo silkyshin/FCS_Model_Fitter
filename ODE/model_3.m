@@ -1,4 +1,4 @@
-function dMdt = ode_model3(t,M,k)
+function dMdt = model_3(t,M,k)
 % ODEs of even order oligomerization model 1-2-4-6
 % Inputs: 
 %  t - time
