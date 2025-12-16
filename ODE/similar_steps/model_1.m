@@ -40,13 +40,13 @@ dM1 = -2*k1*M1^2 + 2*k_1*M2 - k_assoc*M1*M2 + k_2*M3 - k_assoc*M1*M3 + k_3*M4 - 
 dM2 = k1*M1^2 - k_1*M2 - k_assoc*M1*M2 + k_2*M3;
 
 % Trimer
-dM3 = k2*M1*M2 - k_2*M3 - k_assoc*M1*M3 + k_3*M4;
+dM3 = k_assoc*M1*M2 - k_2*M3 - k_assoc*M1*M3 + k_3*M4;
 
 % Tetramer
-dM4 = k3*M1*M3 - k_3*M4 - k_assoc*M1*M4 + k_4*M5;
+dM4 = k_assoc*M1*M3 - k_3*M4 - k_assoc*M1*M4 + k_4*M5;
 
 % Pentamer
-dM5 = k4*M1*M4 - k_4*M5 - k_assoc*M1*M5 + k_5*M6;
+dM5 = k_assoc*M1*M4 - k_4*M5 - k_assoc*M1*M5 + k_5*M6;
 
 % Hexamer
 dM6 = k_assoc*M1*M5 - k_5*M6;
