@@ -1,4 +1,4 @@
-function dMdt = model_2(t,M,k)
+function dMdt = model_3(t,M,k)
 % ODEs of even order oligomerization model 1-2-4-6
 % reduced parameters, assumes k_n is identical
 % Inputs: 
