@@ -21,9 +21,9 @@ M6 = M(6);
 % Unpack rate constants
 k1 = k(1); K1 = k(2); k_1 = k1 / K1;
 k2 = k(3); K2 = k(4); k_2 = k2 / K2;
-k3 = k(5); K3 = k(6); k_2 = k3 / K3;
-k4 = k(7); K4 = k(8); k_2 = k4 /K4;
-k5 = k(9); K5 = k(10); k_2 = k5 /K5;
+k3 = k(5); K3 = k(6); k_3 = k3 / K3;
+k4 = k(7); K4 = k(8); k_4 = k4 /K4;
+k5 = k(9); K5 = k(10); k_5 = k5 /K5;
 
 % Stepwise ODEs
 
